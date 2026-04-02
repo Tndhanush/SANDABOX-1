@@ -1,0 +1,625 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    padding: 70px 10px;
+
+}
+
+.max-w {
+    max-width: 1150;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid2 .grid-sec {
+    width: 45%;
+}
+
+.grid3 .grid-sec {
+    width: 33.33%;
+}
+
+.grid4 .grid-sec {
+    width: 25%;
+}
+
+button {
+    font-size: 18;
+    font-family: Urbanist, sans-serif;
+    font-feature-settings: normal;
+    font-weight: 600;
+}
+
+body {
+
+    font-family: Urbanist, sans-serif;
+    font-feature-settings: normal;
+}
+
+/* page0 */
+.logo2 {
+    width: 150;
+    height: 30;
+    padding: 40px 0;
+    margin: 0 auto;
+    justify-content: center;
+    display: block;
+
+}
+
+/* page1 */
+.body {
+    position: relative;
+}
+
+.page1 {
+    background-color: rgb(255, 255, 255);
+
+
+
+
+}
+
+.page1 .threes {
+
+    color: rgb(52, 63, 82);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #ccc;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+.page1 {
+    position: sticky;
+    top: 0px;
+    padding: 10px 0 20px 20px;
+}
+
+.page1 .threes {
+    display: flex;
+    position: fixed;
+    position: sticky;
+}
+
+.page1 .one {
+    width: 15%;
+}
+
+.page1 .two {
+    width: 45%;
+}
+
+.page1 .thre {
+    width: 20%;
+
+}
+
+.ul1 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+
+}
+
+.ul1 li:hover {
+    color: orange;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+}
+
+.social li,
+.ones {
+    width: 25;
+    height: 25;
+    padding-right: 10px;
+
+}
+
+.thre ul {
+    display: flex;
+    list-style: none;
+    padding-left: 50px;
+
+
+}
+
+.thre ul,
+.oner {
+    width: 25;
+    height: 25;
+    padding-right: 20px;
+
+}
+
+.page3 .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page3 .box .box1 {
+    margin: 20 5 20 20;
+    border-radius: 80px;
+}
+
+.page3 .onet {
+    width: 250;
+    height: 150;
+    margin-bottom: 20;
+    margin-top: 40;
+}
+
+.page3 {
+    background-color: rgb(240, 238, 238);
+
+}
+
+.page3 h3 {
+    background-color: white;
+    text-align: center;
+    margin: -20 0 0 0;
+    padding: 20 0;
+}
+
+.page3 .me {
+    padding-top: 40;
+}
+
+.page3 .para3 {
+    width: 350;
+    font-size: 20;
+    line-height: 1.7;
+    letter-spacing: 0.3;
+}
+
+.p {
+    color: rgb(128, 126, 126);
+}
+
+.para3 {
+    color: rgb(96, 105, 123);
+}
+
+.page3 .para3a {
+    width: 400;
+    line-height: 1.7;
+    color: rgb(128, 126, 126);
+    font-size: 17;
+
+
+}
+
+
+.page3 .but1 {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    width: 150;
+    height: 50;
+    border-radius: 40px;
+
+}
+
+.mer {
+
+    padding-top: 70;
+    text-align: left;
+    padding-left: 25;
+
+
+
+
+}
+
+/* page4 */
+.page4 {
+    background-color: rgb(240, 238, 238);
+
+}
+
+.page5 {
+
+    height: 350;
+    background-image: url('bg34.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.page5 .head1 {
+
+    color: white;
+    font-size: 40;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 600;
+    padding-top: 120;
+
+
+}
+
+/* page6 */
+.page6 {
+    background-color: rgb(252, 251, 251);
+}
+
+.page6 .grides {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page6 .p1 {
+    padding: 10 0 10 0;
+    border-radius: 30px;
+    width: 360;
+}
+
+.page6 .head2 {
+    text-align: center;
+
+}
+
+.page6 .para6 {
+
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 22;
+    color: rgb(122, 121, 121);
+}
+
+.page6 .ul6 {
+    list-style: none;
+    display: flex;
+
+    justify-content: space-between;
+    width: 500;
+    padding-bottom: 50px;
+    font-size: 15;
+    margin: 0 auto;
+}
+
+/* page7 */
+.page7 {
+    background-image: url(bg35\ \(1\).jpg);
+    background-attachment: fixed;
+    height: 500;
+}
+
+.page7 .head3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20;
+}
+
+.page7 .grid-sec {
+    background-color: white;
+    margin: 20;
+    padding: 25 0 20 30;
+    border-radius: 20px;
+
+}
+
+.page7 .sh1 {
+    width: 60;
+    height: 15;
+}
+
+.page7 .para7 {
+    width: 280;
+    line-height: 2;
+    color: rgb(75, 74, 74);
+    padding-bottom: 20;
+}
+
+/* page8 */
+.page8 .para8 {
+    color: rgb(80, 79, 79);
+    line-height: 1.7;
+    width: 480;
+    font-size: 20;
+}
+
+.page8 .para8a {
+    color: rgb(71, 69, 69);
+    line-height: 1.7;
+    width: 480;
+}
+
+.page8 .but3 {
+    width: 150;
+    height: 50;
+    background-color: orange;
+    border-color: orange;
+    border-radius: 20px;
+    color: white;
+}
+
+.page8 img {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)
+}
+
+/* page9  */
+
+.page9 .griding {
+    display: flex;
+}
+
+.page9 .but9 {
+    width: 40;
+    height: 40;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    border-color: orange;
+    margin-right: 30px;
+}
+
+.page9 .but90 {
+    width: 40;
+    height: 40;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    border-color: orange;
+    margin-right: 30px;
+}
+
+.page9 .para90 {
+    color: rgb(114, 112, 112);
+    line-height: 1.7;
+}
+
+.page9 .para9 {
+    color: rgb(114, 112, 112);
+    line-height: 1.7;
+}
+
+.page10 {
+    background-image: url(bg36.jpg);
+    background-attachment: fixed;
+    height: 600;
+}
+
+.page10 .grider {
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 450;
+    padding: 50;
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+.head10 {
+    text-align: center;
+
+}
+
+.page10 .grid9 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.page10 .grid9 .grid-sec {
+    padding: 0 20;
+}
+
+.page10 .grid2 {
+    text-align: center;
+
+}
+
+.page10 .para10 {
+    text-align: center;
+    color: rgb(112, 110, 110);
+    font-size: 18;
+    padding-bottom: 50px;
+}
+
+.page10 .names {
+    width: 250;
+    height: 40;
+
+    border-color: none;
+}
+
+.page10 .mess {
+    width: 500;
+    height: 100;
+
+
+}
+
+.page10 .mer {
+    text-align: center;
+    margin-right: 30;
+    border-color: rgb(243, 241, 241);
+}
+
+.page10 .but11 {
+    background-color: orange;
+    border-color: orange;
+    width: 200;
+    height: 50;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.page10 .butrt {
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* page11 */
+.logo9 {
+    width: 150;
+    height: 30;
+}
+
+.page11 .para11 {
+    color: rgb(114, 112, 112);
+    line-height: 1.7;
+    font-size: 18;
+    width: 300;
+    font-weight: 500;
+}
+
+.page11 .jk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page11 .ap {
+    display: flex;
+}
+
+.ap1 .ph0 {
+    width: 130;
+    color: rgb(148, 145, 145);
+    line-height: 1.5;
+}
+
+.ap1 {
+    padding: 10;
+
+}
+
+hr {
+    margin-bottom: 100;
+}
+
+.poiii {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+.poiii img {
+    width: 25;
+    height: 25px;
+    padding: 10;
+    top: 20;
+}
+
+.end {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.gridsr {
+    display: flex;
+    width: calc(250px * 18);
+    animation: 10s slide infinite;
+
+
+}
+
+.page2 {
+    margin: 0 auto;
+    margin-top: -40px;
+}
+
+.npm1 {
+    height: 600;
+    padding: 15px;
+    transition: transform 1s;
+    animation: 10s slide infinite;
+
+
+}
+
+.npm1 img:hover {
+    transform: translateZ(20px);
+}
+
+.scroll {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    place-items: center;
+    overflow: hidden;
+}
+
+@keyframes npm1 {
+    0% {
+        left: 0;
+    }
+
+    10% {
+        left: 0;
+    }
+
+    20% {
+        left: -100;
+    }
+
+    30% {
+        left: -100;
+    }
+
+    40% {
+        left: -200;
+    }
+
+    50% {
+        left: -200;
+    }
+
+    55% {
+        left: -200;
+    }
+
+    65% {
+        left: -300;
+    }
+
+    66% {
+        left: -200;
+    }
+
+    90% {
+        left: 0;
+    }
+
+    90% {
+        left: 0;
+    }
+
+
+
+}
