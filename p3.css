@@ -122,11 +122,13 @@ body {
     justify-content: space-between;
     list-style: none;
     text-align: center;
+    cursor: pointer;
 
 }
 
 .ul1 li:hover {
     color: orange;
+    
 }
 
 .social {
