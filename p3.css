@@ -95,7 +95,7 @@ body {
 .page1 {
     position: sticky;
     top: 0px;
-    padding: 10px 0 20px 20px;
+   
 }
 
 .page1 .threes {
@@ -556,72 +556,33 @@ hr {
     margin-top: -40px;
 }
 
-.npm1 {
-    height: 600;
-    padding: 15px;
-    transition: transform 1s;
-    animation: 10s slide infinite;
 
-
-}
-
-.npm1 img:hover {
-    transform: translateZ(20px);
-}
 
 .scroll {
-    margin: auto;
-    position: relative;
-    width: 100%;
-    place-items: center;
-    overflow: hidden;
+    overflow-x: auto;          /* enable manual horizontal scroll */
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
 }
 
-@keyframes npm1 {
-    0% {
-        left: 0;
-    }
+/* layout */
+.gridsr {
+    display: inline-flex;
+    gap: 20px;
+}
 
-    10% {
-        left: 0;
-    }
-
-    20% {
-        left: -100;
-    }
-
-    30% {
-        left: -100;
-    }
-
-    40% {
-        left: -200;
-    }
-
-    50% {
-        left: -200;
-    }
-
-    55% {
-        left: -200;
-    }
-
-    65% {
-        left: -300;
-    }
-
-    66% {
-        left: -200;
-    }
-
-    90% {
-        left: 0;
-    }
-
-    90% {
-        left: 0;
-    }
+/* images */
+.npm1 {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
 
 
 
+/* hide scrollbar (optional) */
+.scroll::-webkit-scrollbar {
+    display: none;
 }
